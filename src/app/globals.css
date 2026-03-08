@@ -1,26 +1,50 @@
 @import "tailwindcss";
+@import "tailwindcss/utilities";
+
+@theme inline {
+  --color-primary: #2F3E73;
+  --color-secondary: #4C5FA8;
+  --color-accent: #C9A45C;
+  --color-background: #ffffff;
+  --color-section: #F7F8FA;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #6B7280;
+
+  --font-heading: var(--font-poppins);
+  --font-body: var(--font-inter);
+}
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #1A1A1A;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-weight: 700;
+}
+h2, h3 {
+  font-weight: 600;
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
