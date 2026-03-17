@@ -48,7 +48,7 @@ export default function RootLayout({
                 "postalCode": "500070",
                 "addressCountry": "IN"
               },
-              "telephone": "+919876543210"
+              "telephone": "+919381067561"
             })
           }}
         />

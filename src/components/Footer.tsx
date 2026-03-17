@@ -103,15 +103,16 @@ const Footer = () => {
                             <li className="flex items-start">
                                 <MapPin className="text-accent mt-1 mr-3 flex-shrink-0" size={20} />
                                 <span className="text-text-secondary text-base">
-                                    P.No 418 & 419, Prashanth Nagar<br />
-                                    Vanasthalipuram Main Road<br />
-                                    Hyderabad, Telangana – 500070
+                                    BVR Property Developers Pvt Ltd
+                                    P.No 418 & 419, Prashanth Nagar
+                                    Vanasthalipuram Main Road
+                                    Hyderabad – 500070
                                 </span>
                             </li>
                             <li className="flex items-center">
                                 <Phone className="text-accent mr-3 flex-shrink-0" size={20} />
-                                <a href="tel:+919876543210" className="text-text-secondary hover:text-accent transition-colors text-base">
-                                    +91 98765 43210
+                                <a href="tel:+919381067561" className="text-text-secondary hover:text-accent transition-colors text-base">
+                                    +91 93810 67561
                                 </a>
                             </li>
                             <li className="flex items-center">

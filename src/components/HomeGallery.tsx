@@ -10,10 +10,10 @@ export default function HomeGallery() {
     const [photoIndex, setPhotoIndex] = useState(0);
 
     const images = [
-        { src: "/images/hero.png", alt: "Gallery Preview 1" },
-        { src: "/images/interior.png", alt: "Gallery Preview 2" },
-        { src: "/images/hero.png", alt: "Gallery Preview 3" },
-        { src: "/images/interior.png", alt: "Gallery Preview 4" },
+        { src: "/images/bvr-sai-nilayam/v1 (1).webp", alt: "Gallery Preview 1" },
+        { src: "/images/bvr-sai-nilayam/v1 (2).webp", alt: "Gallery Preview 2" },
+        { src: "/images/bvr-sai-nilayam/v1 (3).webp", alt: "Gallery Preview 3" },
+        { src: "/images/bvr-sai-nilayam/v1 (4).webp", alt: "Gallery Preview 4" },
     ];
 
     const openLightbox = (index: number) => {

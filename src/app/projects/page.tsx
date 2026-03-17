@@ -93,6 +93,75 @@ export default function Projects() {
                     </FadeIn>
                 </div>
             </section>
+
+            {/* 2. Projects Sections */}
+            <div className="container mx-auto px-4 md:px-6 py-20 space-y-32">
+                {/* Ongoing Projects Section */}
+                <section id="ongoing" className="scroll-mt-32">
+                    <FadeIn direction="up">
+                        <span className="text-accent font-semibold tracking-wider font-heading uppercase flex items-center mb-6">
+                            <span className="w-8 h-0.5 bg-accent mr-3"></span> Active Construction
+                        </span>
+                        <h2 className="text-4xl font-bold text-primary mb-4">Ongoing Projects</h2>
+                        <p className="text-text-secondary max-w-2xl mb-12 text-lg">
+                            Projects currently under construction and open for booking in prime locations. Watch your future home take shape with our trusted construction standards.
+                        </p>
+                    </FadeIn>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <FadeIn>
+                            {renderProjectCard('BVR Sai Nilyam', 'Green Wood Colony, Hayathnagar', 'Ongoing', '/projects/bvr-sai-nilyam', false)}
+                        </FadeIn>
+                        <FadeIn delay={0.2}>
+                            {renderProjectCard('BVR Residency', 'L B Nagar, Hyderabad', 'Ongoing', '/contact', false)}
+                        </FadeIn>
+                    </div>
+                </section>
+
+                {/* Completed Projects Section */}
+                <section id="completed" className="scroll-mt-32">
+                    <FadeIn direction="up">
+                        <span className="text-accent font-semibold tracking-wider font-heading uppercase flex items-center mb-6">
+                            <span className="w-8 h-0.5 bg-accent mr-3"></span> Delivered
+                        </span>
+                        <h2 className="text-4xl font-bold text-primary mb-4">Completed Projects</h2>
+                        <p className="text-text-secondary max-w-2xl mb-12 text-lg">
+                            Our completed projects reflect our commitment to delivering quality homes and building long-term trust with our customers.
+                        </p>
+                    </FadeIn>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <FadeIn>
+                            {renderProjectCard('BVR Enclave', 'Vanasthalipuram, Hyderabad', 'Completed', '#', false)}
+                        </FadeIn>
+                        <FadeIn delay={0.2}>
+                            {renderProjectCard('BVR Heights', 'Karmanghat, Hyderabad', 'Completed', '#', false)}
+                        </FadeIn>
+                    </div>
+                </section>
+
+                {/* Upcoming Projects Section */}
+                <section id="upcoming" className="scroll-mt-32 bg-section -mx-4 md:-mx-6 px-4 md:px-6 py-20 rounded-[2.5rem] md:rounded-[4rem] relative overflow-hidden">
+                    {/* Subtle background element */}
+                    <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -mx-20 -my-20 pointer-events-none"></div>
+
+                    <FadeIn direction="up" className="relative z-10">
+                        <span className="text-accent font-semibold tracking-wider font-heading uppercase flex items-center mb-6 text-center justify-center">
+                            <span className="w-8 h-0.5 bg-accent mr-3"></span> Future Visions <span className="w-8 h-0.5 bg-accent ml-3"></span>
+                        </span>
+                        <h2 className="text-4xl font-bold text-primary mb-4 text-center">Upcoming Projects</h2>
+                        <p className="text-text-secondary max-w-2xl mx-auto mb-12 text-lg text-center leading-relaxed">
+                            BVR Property Developers is planning new residential developments in promising locations across Hyderabad. Stay tuned for modern living spaces offering unmatched quality construction.
+                        </p>
+                    </FadeIn>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto relative z-10">
+                        <FadeIn delay={0.1}>
+                            {renderProjectCard('Future Luxury Apartments', 'Kompally, Hyderabad', 'Upcoming', '/contact', true)}
+                        </FadeIn>
+                    </div>
+                </section>
+            </div>
         </div>
     );
 }

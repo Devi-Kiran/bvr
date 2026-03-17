@@ -19,7 +19,7 @@ export default function Home() {
               <FadeIn direction="right">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
                   <Image
-                    src="/images/interior.png"
+                    src="/images/bvr-sai-nilayam/v1 (11).webp"
                     alt="BVR Property Developers Interior"
                     width={800}
                     height={600}
@@ -83,7 +83,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col lg:flex-row group transition-all duration-300 hover:shadow-3xl">
               <div className="lg:w-3/5 w-full relative h-[400px] lg:h-auto overflow-hidden">
                 <Image
-                  src="/images/hero.png"
+                  src="/images/bvr-sai-nilayam/v1 (11).webp"
                   alt="BVR Sai Nilyam Featured Project"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -292,7 +292,7 @@ export default function Home() {
             <FadeIn delay={0.1}>
               <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group h-full flex flex-col">
                 <div className="relative h-64 overflow-hidden">
-                  <Image src="/images/hero.png" alt="Ongoing Projects" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src="/images/bvr-sai-nilayam/v1 (4).webp" alt="Ongoing Projects" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                   <div className="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 uppercase rounded-sm z-10">Ongoing</div>
                 </div>
                 <div className="p-8 flex-grow flex flex-col">
@@ -309,7 +309,7 @@ export default function Home() {
             <FadeIn delay={0.2}>
               <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group h-full flex flex-col">
                 <div className="relative h-64 overflow-hidden">
-                  <Image src="/images/interior.png" alt="Completed Projects" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src="/images/bvr-sai-nilayam/v1 (4).webp" alt="Completed Projects" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                   <div className="absolute top-4 left-4 bg-green-600 text-white text-xs font-bold px-3 py-1 uppercase rounded-sm z-10">Completed</div>
                 </div>
                 <div className="p-8 flex-grow flex flex-col">

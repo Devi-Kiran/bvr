@@ -9,18 +9,18 @@ import { Home } from 'lucide-react';
 
 export default function Gallery() {
     const visuals = [
-        { title: 'Project Images', type: 'image', count: 6 },
-        { title: 'Floor Plans', type: 'plan', count: 4 },
-        { title: 'Construction Updates', type: 'update', count: 4 }
+        { title: 'BVR Sai Nilayam', folder: 'bvr-sai-nilayam', type: 'image', count: 11 },
+        { title: 'BVR Srinivas', folder: 'bvr-srinivas', type: 'plan', count: 4 },
+        { title: 'BVR Manjunath', folder: 'bvr-manjunath', type: 'update', count: 2 }
     ];
 
     const [lightboxOpen, setLightboxOpen] = useState(false);
     const [currentImages, setCurrentImages] = useState<{ src: string, alt: string }[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const openLightbox = (sectionTitle: string, count: number, clickedIndex: number) => {
+    const openLightbox = (sectionTitle: string, sectionFolder: string, count: number, clickedIndex: number) => {
         const images = Array.from({ length: count }).map((_, i) => ({
-            src: i % 2 === 0 ? "/images/hero.png" : "/images/interior.png",
+            src: `/images/${sectionFolder}/v1 (${i + 1}).webp`,
             alt: `${sectionTitle} Image ${i + 1}`,
         }));
         setCurrentImages(images);
@@ -65,10 +65,10 @@ export default function Gallery() {
                                     key={i}
                                     delay={0.1 * i}
                                     className={`group relative overflow-hidden rounded-xl shadow-lg border border-gray-100 bg-gray-50 aspect-[4/3] cursor-pointer`}
-                                    onClick={() => openLightbox(section.title, section.count, i)}
+                                    onClick={() => openLightbox(section.title, section.folder, section.count, i)}
                                 >
                                     <Image
-                                        src={i % 2 === 0 ? "/images/hero.png" : "/images/interior.png"}
+                                        src={`/images/${section.folder}/v1 (${i + 1}).webp`}
                                         alt={`${section.title} Image ${i + 1}`}
                                         fill
                                         className="object-cover transition-transform duration-700 group-hover:scale-110"
