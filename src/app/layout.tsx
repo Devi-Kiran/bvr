@@ -65,7 +65,7 @@ export default function RootLayout({
         <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50 pointer-events-none">
           {/* Call Button */}
           <a
-            href="tel:+919440551214"
+            href="tel:+919381067561"
             className="bg-primary text-white p-4 rounded-full shadow-lg hover:bg-secondary transition-colors flex items-center justify-center pointer-events-auto"
             aria-label="Call us"
           >
@@ -76,7 +76,7 @@ export default function RootLayout({
 
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/+919440551214"
+            href="https://wa.me/+919381067561"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors flex items-center justify-center pointer-events-auto"
