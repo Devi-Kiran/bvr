@@ -3,20 +3,29 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { MapPin, ArrowRight, Home } from 'lucide-react';
 
+
 export default function Projects() {
-    const renderProjectCard = (title: string, location: string, status: string, link: string, isUpcoming: boolean) => (
+    const renderProjectCard = (
+        title: string,
+        image: string,
+        location: string,
+        status: string,
+        link: string,
+        isUpcoming: boolean,
+        features: string[] = []
+    ) => (
         <div className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group flex flex-col h-full border border-gray-100 relative">
             <div className="relative h-72 overflow-hidden bg-gray-100 flex items-center justify-center">
                 {!isUpcoming ? (
                     <Image
-                        src="/images/hero.png"
+                        src={image}
                         alt={title}
                         fill
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                 ) : (
                     <Image
-                        src="/images/hero.png"
+                        src={image}
                         alt={title}
                         fill
                         className="object-cover opacity-50 grayscale transition-transform duration-700 group-hover:scale-105"
@@ -37,22 +46,12 @@ export default function Projects() {
 
                 {!isUpcoming && (
                     <ul className="space-y-3 mb-8 text-text-secondary text-base flex-grow">
-                        <li className="flex items-center">
-                            <span className="w-1.5 h-1.5 rounded-full bg-accent mr-3 flex-shrink-0"></span>
-                            North-East Facing Flats
-                        </li>
-                        <li className="flex items-center">
-                            <span className="w-1.5 h-1.5 rounded-full bg-accent mr-3 flex-shrink-0"></span>
-                            Stilt + 4 Floors
-                        </li>
-                        <li className="flex items-center">
-                            <span className="w-1.5 h-1.5 rounded-full bg-accent mr-3 flex-shrink-0"></span>
-                            Spacious Apartments
-                        </li>
-                        <li className="flex items-center">
-                            <span className="w-1.5 h-1.5 rounded-full bg-accent mr-3 flex-shrink-0"></span>
-                            Car Parking & Lift Facility
-                        </li>
+                        {features.map((feature, index) => (
+                            <li key={index} className="flex items-center">
+                                <span className="w-1.5 h-1.5 rounded-full bg-accent mr-3 flex-shrink-0"></span>
+                                {feature}
+                            </li>
+                        ))}
                     </ul>
                 )}
 
@@ -109,12 +108,56 @@ export default function Projects() {
                     </FadeIn>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
                         <FadeIn>
-                            {renderProjectCard('BVR Sai Nilyam', 'Green Wood Colony, Hayathnagar', 'Ongoing', '/projects/bvr-sai-nilyam', false)}
+                            {renderProjectCard(
+                                'BVNR Laxmi Prabha Nilayam',
+                                '/images/bvr-lakshmi-prabha-nilayam/v1 (1).webp',
+                                'Decence Colony, Hayathnagar',
+                                'Ongoing',
+                                '/projects/bvnr-laxmi-prabha-nilayam',
+                                false,
+                                [
+                                    'East Facing Flats',
+                                    'Stilt + 5 Floors',
+                                    '383 Sq Yards',
+                                    'Car Parking with Amenities'
+                                ]
+                            )}
                         </FadeIn>
                         <FadeIn delay={0.2}>
-                            {renderProjectCard('BVR Residency', 'L B Nagar, Hyderabad', 'Ongoing', '/contact', false)}
+                            {renderProjectCard(
+                                'BVNR Tirumala Hills',
+                                '/images/bvr-thirumala-hills/v1 (3).webp',
+                                'Midhani Colony, Hayathnagar',
+                                'Ongoing',
+                                '/projects/bvnr-tirumala-hills',
+                                false,
+                                [
+                                    'North-East Corner Flats',
+                                    'Stilt + 4 Floors',
+                                    '333 Sq Yards',
+                                    'Car Parking with Amenities'
+                                ]
+                            )}
                         </FadeIn>
+                        <FadeIn delay={0.4}>
+                            {renderProjectCard(
+                                'BVR Sarvagna Nilayam',
+                                '/images/bvr-sarvagna-nilayam/v1 (4).webp',
+                                'Surya Vamshi Colony, Peddamberpet',
+                                'Ongoing',
+                                '/projects/bvr-sarvagna-nilayam',
+                                false,
+                                [
+                                    'East Facing Flats (2 per floor)',
+                                    'Stilt + 5 Floors',
+                                    'Spacious Apartments',
+                                    'Car Parking with Amenities'
+                                ]
+                            )}
+                        </FadeIn>
+
                     </div>
                 </section>
 
@@ -132,10 +175,54 @@ export default function Projects() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <FadeIn>
-                            {renderProjectCard('BVR Enclave', 'Vanasthalipuram, Hyderabad', 'Completed', '#', false)}
+                            {renderProjectCard(
+                                'BVR Sai Nilayam',
+                                '/images/bvr-sai-nilayam/v1 (11).webp',
+                                'Green Wood Colony, Hayathnagar',
+                                'Completed',
+                                '/projects/bvr-sai-nilayam',
+                                false,
+                                [
+                                    'North-East Facing Flats',
+                                    'Stilt + 4 Floors',
+                                    '325 Sq Yards',
+                                    'Car Parking & Lift Facility'
+                                ]
+                            )}
                         </FadeIn>
+
                         <FadeIn delay={0.2}>
-                            {renderProjectCard('BVR Heights', 'Karmanghat, Hyderabad', 'Completed', '#', false)}
+                            {renderProjectCard(
+                                'BVR Manjunath Heights',
+                                '/images/bvr-manjunath-heights/v1 (2).webp',
+                                'Gajji Swami Colony, Pedda Amberpet',
+                                'Completed',
+                                '/projects/bvr-manjunath-heights',
+                                false,
+                                [
+                                    'East Facing Flats',
+                                    'Stilt + 5 Floors',
+                                    '413 Sq Yards',
+                                    'Car Parking & Amenities'
+                                ]
+                            )}
+                        </FadeIn>
+
+                        <FadeIn delay={0.4}>
+                            {renderProjectCard(
+                                'BVR Sri Niwas',
+                                '/images/bvr-sri-niwas/v1 (2).webp',
+                                'Green Wood Colony, Hayathnagar',
+                                'Completed',
+                                '/projects/bvr-sri-niwas',
+                                false,
+                                [
+                                    'North Facing Plots',
+                                    'Stilt + 4 Floors',
+                                    '2150 Sft Area',
+                                    'Car Parking Available'
+                                ]
+                            )}
                         </FadeIn>
                     </div>
                 </section>
@@ -156,9 +243,9 @@ export default function Projects() {
                     </FadeIn>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto relative z-10">
-                        <FadeIn delay={0.1}>
-                            {renderProjectCard('Future Luxury Apartments', 'Kompally, Hyderabad', 'Upcoming', '/contact', true)}
-                        </FadeIn>
+                        {/* <FadeIn delay={0.1}>
+                            {renderProjectCard('Future Luxury Apartments', '/images/hero.png', 'Kompally, Hyderabad', 'Upcoming', '/contact', true)}
+                        </FadeIn> */}
                     </div>
                 </section>
             </div>
