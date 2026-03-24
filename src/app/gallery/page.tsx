@@ -5,23 +5,19 @@ import FadeIn from '@/components/ui/FadeIn';
 import Image from 'next/image';
 import Lightbox from '@/components/ui/Lightbox';
 import Link from 'next/link';
-import { Home } from 'lucide-react';
+import { Home, ArrowRight } from 'lucide-react';
+
+import projects from '@/data/projects.json';
 
 export default function Gallery() {
-    const visuals = [
-        { title: 'BVR Sai Nilayam', folder: 'bvr-sai-nilayam', type: 'image', count: 11 },
-        { title: 'BVR Srinivas', folder: 'bvr-srinivas', type: 'plan', count: 4 },
-        { title: 'BVR Manjunath', folder: 'bvr-manjunath', type: 'update', count: 2 }
-    ];
-
     const [lightboxOpen, setLightboxOpen] = useState(false);
     const [currentImages, setCurrentImages] = useState<{ src: string, alt: string }[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const openLightbox = (sectionTitle: string, sectionFolder: string, count: number, clickedIndex: number) => {
-        const images = Array.from({ length: count }).map((_, i) => ({
-            src: `/images/${sectionFolder}/v1 (${i + 1}).webp`,
-            alt: `${sectionTitle} Image ${i + 1}`,
+    const openLightbox = (projectTitle: string, gallery: string[], clickedIndex: number) => {
+        const images = gallery.map((src, i) => ({
+            src,
+            alt: `${projectTitle} Image ${i + 1}`,
         }));
         setCurrentImages(images);
         setCurrentIndex(clickedIndex);
@@ -51,25 +47,25 @@ export default function Gallery() {
 
             {/* 2. Gallery Sections */}
             <section className="py-20 container mx-auto px-4 md:px-6">
-                {visuals.map((section, idx) => (
-                    <div key={section.title} className="mb-24 last:mb-0">
+                {projects.filter(p => p.gallery && p.gallery.length > 0).map((project, idx) => (
+                    <div key={project.id} className="mb-24 last:mb-0">
                         <FadeIn direction="up">
                             <span className="text-accent font-semibold tracking-wider font-heading uppercase flex items-center mb-6">
-                                <span className="w-8 h-0.5 bg-accent mr-3"></span> {section.title}
+                                <span className="w-8 h-0.5 bg-accent mr-3"></span> {project.title}
                             </span>
                         </FadeIn>
 
-                        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6`}>
-                            {Array.from({ length: section.count }).map((_, i) => (
+                        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10`}>
+                            {project.gallery.map((imgSrc, i) => (
                                 <FadeIn
                                     key={i}
                                     delay={0.1 * i}
                                     className={`group relative overflow-hidden rounded-xl shadow-lg border border-gray-100 bg-gray-50 aspect-[4/3] cursor-pointer`}
-                                    onClick={() => openLightbox(section.title, section.folder, section.count, i)}
+                                    onClick={() => openLightbox(project.title, project.gallery, i)}
                                 >
                                     <Image
-                                        src={`/images/${section.folder}/v1 (${i + 1}).webp`}
-                                        alt={`${section.title} Image ${i + 1}`}
+                                        src={imgSrc}
+                                        alt={`${project.title} Image ${i + 1}`}
                                         fill
                                         className="object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
@@ -83,6 +79,18 @@ export default function Gallery() {
                                 </FadeIn>
                             ))}
                         </div>
+
+                        <FadeIn direction="up" delay={0.2}>
+                            <div className="flex justify-center">
+                                <Link
+                                    href={`/projects/${project.slug}`}
+                                    className="inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-accent transition-all duration-300 group shadow-md"
+                                >
+                                    View Project Details
+                                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                </Link>
+                            </div>
+                        </FadeIn>
                     </div>
                 ))}
             </section>

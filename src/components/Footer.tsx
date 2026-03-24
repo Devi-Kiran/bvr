@@ -138,8 +138,8 @@ const Footer = () => {
                     <p>© {new Date().getFullYear()} BVR Property Developers Pvt Ltd. All rights reserved.</p>
                     <div className="mt-4 md:mt-0 space-x-4">
                         <span className="text-xs">GSTIN: 36ABCDE1234F1Z5</span>
-                        <Link href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</Link>
-                        <Link href="/terms" className="hover:text-accent transition-colors">Terms of Service</Link>
+                        {/* <Link href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</Link>
+                        <Link href="/terms" className="hover:text-accent transition-colors">Terms of Service</Link> */}
                     </div>
                 </div>
             </div>

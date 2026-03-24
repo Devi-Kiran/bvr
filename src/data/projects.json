@@ -1,0 +1,654 @@
+[
+  {
+    "id": "bvnr-laxmi-prabha-nilayam",
+    "slug": "bvnr-laxmi-prabha-nilayam",
+    "title": "BVNR Laxmi Prabha Nilayam",
+    "project-brochure": "/pdfs/bvnr-laxmi-prabha-nilayam.pdf",
+    "image": "/images/bvr-lakshmi-prabha-nilayam/v1 (1).webp",
+    "location": {
+      "address": "Plot No 462, Decence Colony, Hayathnagar, Hyderabad",
+      "area": "Hayathnagar",
+      "city": "Hyderabad"
+    },
+    "status": "Ongoing",
+    "isUpcoming": false,
+    "developer": {
+      "name": "BVNR Infra LLP",
+      "office": "Plot No. 201, 6-5-204/N5, Prashanthnagar, Vanasthalipuram, Hyderabad - 500070",
+      "phone": [
+        "94405 51214",
+        "99491 39827"
+      ],
+      "email": "bvnrinfra13@gmail.com"
+    },
+    "overview": {
+      "title": "Premium Apartments in Hayathnagar",
+      "description": "BVNR Laxmi Prabha Nilayam offers spacious single-flat-per-floor residences with premium construction quality, modern amenities, and excellent connectivity in Hayathnagar."
+    },
+    "highlights": [
+      "Single Flat Per Floor",
+      "Stilt + 5 Floors",
+      "East Facing Flats",
+      "2450 Sft Spacious Area",
+      "Car Parking with Amenities",
+      "Premium Construction Quality"
+    ],
+    "projectDetails": {
+      "totalFloors": "Stilt + 5 Floors",
+      "flatsPerFloor": 1,
+      "facing": "East",
+      "configuration": "3BHK",
+      "saleArea": "2450 Sft",
+      "plotSize": "382 Sq Yards",
+      "uds": "76.04",
+      "parking": "Available with amenities (Approx 3 Lakhs)"
+    },
+    "pricing": {
+      "pricePerSqYard": null,
+      "parkingCost": "3 Lakhs",
+      "udsPerPerson": "76.04",
+      "note": "GST Registration Extra"
+    },
+    "specifications": {
+      "building": {
+        "slab": "5.5 inch thickness",
+        "steel": "Nagarjuna / Jairaj / Kamadhenu",
+        "cement": "UltraTech & Bharathi (Ultra fast construction)",
+        "brick": "Red brick for all walls",
+        "wallThickness": "9 inch external, 4 inch internal",
+        "elevation": "Advanced elevation for road side"
+      },
+      "doorsWindows": {
+        "mainDoor": "Teak wood, 3'6\" frame, 7'3\" height, polished finish",
+        "bedroomDoor": "Teak wood + granite, 7'3\" height",
+        "bathroomDoor": "Granite frame, waterproof flush doors",
+        "windows": "UPVC windows, 2 track, ISI quality",
+        "utility": "UPVC sliding doors"
+      },
+      "kitchen": {
+        "sink": "Stainless steel sink",
+        "water": "Municipal + Bore water with separate taps",
+        "roProvision": true,
+        "tiles": "Wall tiles provided"
+      },
+      "electrical": {
+        "boxes": "GM company",
+        "switches": "Havells",
+        "wiring": "Finolex equivalent copper wiring",
+        "points": "TV & Internet points provided"
+      },
+      "paint": {
+        "interior": "Asian premium paint (white finish)",
+        "exterior": "Apex Ultima with waterproofing, texture & damp proof"
+      },
+      "tiles": {
+        "bathroom": "Half wall tiles up to 7 feet",
+        "flooring": "800x1600 mm tiles",
+        "parking": "Granite flooring",
+        "staircase": "Granite steps with steel railing"
+      },
+      "plumbing": {
+        "pipes": "Ashirvad pipes",
+        "commode": "Wall mounted",
+        "brand": "Hindware",
+        "washbasin": "Provided in all bathrooms"
+      },
+      "elevator": {
+        "capacity": "6 passengers",
+        "type": "Automatic door with V3F drive",
+        "powerBackup": true
+      }
+    },
+    "gallery": [
+      "/images/bvr-lakshmi-prabha-nilayam/v1 (1).webp",
+      "/images/bvr-lakshmi-prabha-nilayam/v1 (2).webp",
+      "/images/bvr-lakshmi-prabha-nilayam/v1 (3).webp"
+    ]
+  },
+  {
+    "id": "bvnr-tirumala-hills",
+    "slug": "bvnr-tirumala-hills",
+    "title": "BVNR Tirumala Hills",
+    "project-brochure": "/pdfs/bvnr-tirumala-hills.pdf",
+    "image": "/images/bvr-thirumala-hills/v1 (3).webp",
+    "location": {
+      "address": "Plot No. 161, Midhani Colony, Hayathnagar, Hyderabad",
+      "area": "Hayathnagar",
+      "city": "Hyderabad"
+    },
+    "status": "Ongoing",
+    "isUpcoming": false,
+    "developer": {
+      "name": "BVNR Infra LLP",
+      "office": "Plot No. 201, 6-5-204/N5, Prashanthnagar, Vanasthalipuram, Hyderabad - 500070",
+      "phone": [
+        "94405 51214",
+        "99491 39827"
+      ],
+      "email": "bvnrinfra13@gmail.com"
+    },
+    "overview": {
+      "title": "Premium Corner Apartments in Hayathnagar",
+      "description": "BVNR Tirumala Hills offers premium north-east corner flats with spacious layouts, high-quality construction, and modern amenities designed for comfortable living."
+    },
+    "highlights": [
+      "North-East Corner Flat",
+      "Single Flat Per Floor",
+      "Stilt + 4 Floors",
+      "2475 Sft Spacious Area",
+      "Car Parking with Amenities",
+      "Premium Construction Quality"
+    ],
+    "projectDetails": {
+      "totalFloors": "Stilt + 4 Floors",
+      "flatsPerFloor": 1,
+      "facing": "North-East Corner",
+      "configuration": "3BHK",
+      "saleArea": "2475 Sft",
+      "plotSize": "333 Sq Yards",
+      "uds": "83.25",
+      "parking": "Available with amenities (Approx 3 Lakhs)"
+    },
+    "pricing": {
+      "pricePerSqYard": "5600",
+      "parkingCost": "3 Lakhs",
+      "udsPerPerson": "83.25",
+      "note": "GST Registration Extra"
+    },
+    "specifications": {
+      "building": {
+        "slab": "5.5 inch thickness",
+        "steel": "Nagarjuna / Jairaj / Kamadhenu",
+        "cement": "UltraTech & Bharathi (Ultra fast construction)",
+        "brick": "Red brick for all walls",
+        "wallThickness": "9 inch external, 4 inch internal",
+        "elevation": "Advanced elevation for road side"
+      },
+      "doorsWindows": {
+        "mainDoor": "Teak wood, 3'6\" frame, 7'6\" height, polished finish",
+        "bedroomDoor": "Teak wood + granite, 7'6\" height",
+        "bathroomDoor": "Granite frame, waterproof flush doors",
+        "windows": "UPVC windows, 2 track, ISI quality",
+        "utility": "UPVC sliding doors"
+      },
+      "kitchen": {
+        "sink": "Stainless steel sink",
+        "water": "Municipal + Bore water with separate taps",
+        "roProvision": true,
+        "tiles": "Wall tiles provided"
+      },
+      "electrical": {
+        "boxes": "GM company",
+        "switches": "Havells",
+        "wiring": "Finolex equivalent copper wiring",
+        "points": "TV & Internet points provided"
+      },
+      "paint": {
+        "interior": "Asian premium paint (white finish)",
+        "exterior": "Apex Ultima with waterproofing, texture & damp proof"
+      },
+      "tiles": {
+        "bathroom": "Half wall tiles up to 7 feet",
+        "flooring": "Charges extra (Rs.40/sqft or Rs.80/sqft based on brand)",
+        "parking": "Granite flooring",
+        "staircase": "Granite steps with steel railing"
+      },
+      "plumbing": {
+        "pipes": "Supreme / Sudhakar CPVC pipes",
+        "commode": "Wall mounted",
+        "brand": "Jaquar / Hindware / Rak / Parryware",
+        "washbasin": "Provided in all bathrooms"
+      },
+      "elevator": {
+        "capacity": "5 passengers",
+        "type": "Automatic door with V3F drive",
+        "powerBackup": true
+      }
+    },
+    "gallery": [
+      "/images/bvr-thirumala-hills/v1 (1).webp",
+      "/images/bvr-thirumala-hills/v1 (2).webp",
+      "/images/bvr-thirumala-hills/v1 (3).webp",
+      "/images/bvr-thirumala-hills/v1 (4).webp",
+      "/images/bvr-thirumala-hills/v1 (5).webp",
+      "/images/bvr-thirumala-hills/v1 (6).webp"
+    ]
+  },
+  {
+    "id": "bvr-sarvagna-nilayam",
+    "slug": "bvr-sarvagna-nilayam",
+    "title": "BVR Sarvagna Nilayam",
+    "project-brochure": "/pdfs/bvr-sarvajna-nilayam.pdf",
+    "image": "/images/bvr-sarvagna-nilayam/v1 (4).webp",
+    "location": {
+      "address": "Plot No 97, 98, Surya Vamshi Colony, Peddamberpet-UTF-D, Hyderabad",
+      "area": "Peddamberpet",
+      "city": "Hyderabad"
+    },
+    "status": "Ongoing",
+    "isUpcoming": false,
+    "developer": {
+      "name": "BVR Property Developers Pvt Ltd",
+      "office": "Prashanth Nagar Park Number 2, Vanasthalipuram Main Road, Hyderabad",
+      "phone": [
+        "94405 51214",
+        "99491 39827"
+      ],
+      "email": "bvrinfra13@gmail.com"
+    },
+    "overview": {
+      "title": "Premium Residential Apartments in Peddamberpet",
+      "description": "BVR Sarvagna Nilayam offers premium quality 2BHK apartments with modern construction standards, high-quality materials, and spacious layouts designed for comfortable family living."
+    },
+    "highlights": [
+      "East Facing Flats (2 per floor)",
+      "Stilt + 5 Floors",
+      "Premium Construction Quality",
+      "Car Parking with Amenities",
+      "Spacious Layouts",
+      "Peaceful Residential Location"
+    ],
+    "projectDetails": {
+      "totalFloors": "Stilt + 5 Floors",
+      "flatsPerFloor": 2,
+      "facing": "East",
+      "configuration": "2BHK",
+      "saleArea": null,
+      "uds": "66.01",
+      "parking": "Available with amenities"
+    },
+    "pricing": {
+      "pricePerSqYard": null,
+      "parkingCost": null,
+      "udsPerPerson": "66.01",
+      "note": "GST Registration Extra"
+    },
+    "specifications": {
+      "building": {
+        "slab": "5.5 inch thickness",
+        "steel": "Nagarjuna / Jairaj / Kamadhenu",
+        "cement": "UltraTech & Bharathi (Ultra fast construction)",
+        "brick": "Red brick for all walls",
+        "wallThickness": "9 inch external, 4 inch internal",
+        "elevation": "Advanced elevation for road side"
+      },
+      "doorsWindows": {
+        "mainDoor": "Teak wood, 3'6\" frame, 7'3\" height, polished finish",
+        "bedroomDoor": "Teak wood + granite, 7'3\" height",
+        "bathroomDoor": "Granite frame, waterproof flush doors",
+        "windows": "UPVC windows, 2 track, ISI quality",
+        "utility": "UPVC sliding doors"
+      },
+      "kitchen": {
+        "sink": "Stainless steel sink",
+        "water": "Municipal + Bore water with separate taps",
+        "roProvision": true,
+        "tiles": "Wall tiles provided"
+      },
+      "electrical": {
+        "boxes": "GM company",
+        "switches": "Havells",
+        "wiring": "Finolex equivalent copper wiring",
+        "points": "TV & Internet points provided"
+      },
+      "paint": {
+        "interior": "Asian premium paint",
+        "exterior": "Apex Ultima with waterproofing & texture finish"
+      },
+      "tiles": {
+        "bathroom": "Half wall tiles up to 7 feet",
+        "flooring": "800x1600 mm tiles",
+        "parking": "Granite flooring",
+        "staircase": "Granite steps with steel railing"
+      },
+      "plumbing": {
+        "pipes": "Ashirvad pipes",
+        "commode": "Wall mounted",
+        "brand": "Hindware",
+        "washbasin": "Provided in all bathrooms"
+      },
+      "elevator": {
+        "capacity": "6 passengers",
+        "type": "Automatic door with V3F drive",
+        "powerBackup": true
+      }
+    },
+    "gallery": [
+      "/images/bvr-sarvagna-nilayam/v1 (1).webp",
+      "/images/bvr-sarvagna-nilayam/v1 (2).webp",
+      "/images/bvr-sarvagna-nilayam/v1 (3).webp",
+      "/images/bvr-sarvagna-nilayam/v1 (4).webp",
+      "/images/bvr-sarvagna-nilayam/v1 (5).webp",
+      "/images/bvr-sarvagna-nilayam/v1 (6).webp",
+      "/images/bvr-sarvagna-nilayam/v1 (7).webp",
+      "/images/bvr-sarvagna-nilayam/v1 (8).webp"
+    ]
+  },
+  {
+    "id": "bvr-sai-nilayam",
+    "slug": "bvr-sai-nilayam",
+    "title": "BVR Sai Nilayam",
+    "project-brochure": "/pdfs/sai-nilayam.pdf",
+    "image": "/images/bvr-sai-nilayam/v1 (11).webp",
+    "location": {
+      "address": "Plot No 48 & 49, Green Wood Colony, Hayathnagar, Hyderabad",
+      "area": "Hayathnagar",
+      "city": "Hyderabad"
+    },
+    "status": "Completed",
+    "isUpcoming": false,
+    "developer": {
+      "name": "BVR Property Developers Pvt Ltd",
+      "office": "Prashanth Nagar Park Number 2, Vanasthalipuram Main Road, Hyderabad - 500070",
+      "phone": [
+        "94405 51214",
+        "99491 39827"
+      ],
+      "email": "bvrinfra13@gmail.com"
+    },
+    "overview": {
+      "title": "Premium North-East Facing Apartments in Hayathnagar",
+      "description": "BVR Sai Nilayam offers spacious north-east facing single-flat-per-floor apartments with premium construction quality, modern amenities, and excellent connectivity."
+    },
+    "highlights": [
+      "North-East Facing Flat",
+      "Single Flat Per Floor",
+      "Stilt + 4 Floors",
+      "2300 Sft Spacious Area",
+      "Car Parking with Amenities",
+      "Premium Construction Quality"
+    ],
+    "projectDetails": {
+      "totalFloors": "Stilt + 4 Floors",
+      "flatsPerFloor": 1,
+      "facing": "North-East",
+      "configuration": "3BHK",
+      "saleArea": "2300 Sft",
+      "plotSize": "325 Sq Yards",
+      "uds": "81.25",
+      "parking": "Available with amenities"
+    },
+    "pricing": {
+      "pricePerSqFt": null,
+      "parkingCost": null,
+      "udsPerPerson": "81.25",
+      "note": "GST Registration Extra"
+    },
+    "specifications": {
+      "building": {
+        "slab": "5.5 inch thickness",
+        "steel": "Nagarjuna / Jairaj / Kamadhenu",
+        "cement": "UltraTech & Bharathi (Ultra fast construction)",
+        "brick": "Red brick for all walls",
+        "wallThickness": "9 inch external, 4 inch internal",
+        "elevation": "Advanced elevation for road side"
+      },
+      "doorsWindows": {
+        "mainDoor": "Teak wood, 3'6\" frame, 7'3\" height, polished finish",
+        "bedroomDoor": "Teak wood + granite, 7'3\" height",
+        "bathroomDoor": "Granite frame, waterproof flush doors",
+        "windows": "UPVC windows, 2 track, ISI quality",
+        "utility": "UPVC sliding doors"
+      },
+      "kitchen": {
+        "sink": "Stainless steel sink",
+        "water": "Municipal + Bore water with separate taps",
+        "roProvision": true,
+        "tiles": "Wall tiles provided"
+      },
+      "electrical": {
+        "boxes": "GM company",
+        "switches": "Havells",
+        "wiring": "Finolex equivalent copper wiring",
+        "points": "TV & Internet points provided"
+      },
+      "paint": {
+        "interior": "Asian premium paint (white finish)",
+        "exterior": "Apex Ultima with waterproofing, texture & damp proof"
+      },
+      "tiles": {
+        "bathroom": "Half wall tiles up to 7 feet",
+        "flooring": "Extra cost (Rs.40/sqft to Rs.80/sqft based on quality)",
+        "parking": "Granite flooring",
+        "staircase": "Granite steps with steel railing"
+      },
+      "plumbing": {
+        "pipes": "Ashirvad / Sudhakar pipes",
+        "commode": "Wall mounted",
+        "brand": "Jaquar / Hindware / Rak / Parryware",
+        "washbasin": "Provided in all bathrooms"
+      },
+      "elevator": {
+        "capacity": "5 passengers",
+        "type": "Automatic door with V3F drive",
+        "powerBackup": true
+      }
+    },
+    "gallery": [
+      "/images/bvr-sai-nilayam/v1 (1).webp",
+      "/images/bvr-sai-nilayam/v1 (2).webp",
+      "/images/bvr-sai-nilayam/v1 (3).webp",
+      "/images/bvr-sai-nilayam/v1 (4).webp",
+      "/images/bvr-sai-nilayam/v1 (5).webp",
+      "/images/bvr-sai-nilayam/v1 (6).webp",
+      "/images/bvr-sai-nilayam/v1 (7).webp",
+      "/images/bvr-sai-nilayam/v1 (8).webp",
+      "/images/bvr-sai-nilayam/v1 (9).webp",
+      "/images/bvr-sai-nilayam/v1 (10).webp",
+      "/images/bvr-sai-nilayam/v1 (11).webp",
+      "/images/bvr-sai-nilayam/v1 (12).webp"
+    ]
+  },
+  {
+    "id": "bvr-manjunath-heights",
+    "slug": "bvr-manjunath-heights",
+    "title": "BVR Manjunath Heights",
+    "project-brochure": "/pdfs/manjunath-heights.pdf",
+    "image": "/images/bvr-manjunath-heights/v1 (2).webp",
+    "location": {
+      "address": "Plot No 58, Gajji Swami Colony, Laxma Reddy Palem, Peddaamberpet, Hyderabad",
+      "area": "Peddaamberpet",
+      "city": "Hyderabad"
+    },
+    "status": "Completed",
+    "isUpcoming": false,
+    "developer": {
+      "name": "BVR Property Developers Pvt Ltd",
+      "office": "Prashanth Nagar Park Number 2, Vanasthalipuram Main Road, Hyderabad - 500070",
+      "phone": [
+        "94405 51214",
+        "99491 39827"
+      ],
+      "email": "bvrinfra13@gmail.com"
+    },
+    "overview": {
+      "title": "Premium East Facing Apartments in Peddaamberpet",
+      "description": "BVR Manjunath Heights offers spacious east-facing single-flat-per-floor residences with premium construction quality, modern amenities, and excellent connectivity."
+    },
+    "highlights": [
+      "East Facing Flat",
+      "Single Flat Per Floor",
+      "Stilt + 5 Floors",
+      "2650 Sft Spacious Area",
+      "Car Parking with Amenities",
+      "Premium Construction Quality"
+    ],
+    "projectDetails": {
+      "totalFloors": "Stilt + 5 Floors",
+      "flatsPerFloor": 1,
+      "facing": "East",
+      "configuration": "3BHK",
+      "saleArea": "2650 Sft",
+      "plotSize": "413 Sq Yards",
+      "uds": "82.6",
+      "parking": "Available with amenities"
+    },
+    "pricing": {
+      "pricePerSqFt": null,
+      "parkingCost": null,
+      "udsPerPerson": "82.6",
+      "note": "GST Registration Extra"
+    },
+    "specifications": {
+      "building": {
+        "slab": "5.5 inch thickness",
+        "steel": "Nagarjuna / Jairaj / Kamadhenu",
+        "cement": "UltraTech & Bharathi (Ultra fast construction)",
+        "brick": "Red brick for all walls",
+        "wallThickness": "9 inch external, 4 inch internal",
+        "elevation": "Advanced elevation for road side"
+      },
+      "doorsWindows": {
+        "mainDoor": "Teak wood, 3'6\" frame, 7'3\" height, polished finish",
+        "bedroomDoor": "Teak wood + granite, 7'3\" height",
+        "bathroomDoor": "Granite frame, waterproof flush doors",
+        "windows": "UPVC windows, 2 track, ISI quality",
+        "utility": "UPVC sliding doors"
+      },
+      "kitchen": {
+        "sink": "Stainless steel sink",
+        "water": "Municipal + Bore water with separate taps",
+        "roProvision": true,
+        "tiles": "Wall tiles provided"
+      },
+      "electrical": {
+        "boxes": "GM company",
+        "switches": "Havells",
+        "wiring": "Finolex equivalent copper wiring",
+        "points": "TV & Internet points provided"
+      },
+      "paint": {
+        "interior": "Asian premium paint (white finish)",
+        "exterior": "Apex Ultima with waterproofing, texture & damp proof"
+      },
+      "tiles": {
+        "bathroom": "Half wall tiles up to 7 feet",
+        "flooring": "Extra cost (Rs.40/sqft to Rs.80/sqft based on quality)",
+        "parking": "Granite flooring",
+        "staircase": "Granite steps with steel railing"
+      },
+      "plumbing": {
+        "pipes": "Ashirvad / Sudhakar pipes",
+        "commode": "Wall mounted",
+        "brand": "Jaquar / Hindware / Rak / Parryware",
+        "washbasin": "Provided in all bathrooms"
+      },
+      "elevator": {
+        "capacity": "5 passengers",
+        "type": "Automatic door with V3F drive",
+        "powerBackup": true
+      }
+    },
+    "gallery": [
+      "/images/bvr-manjunath-heights/v1 (1).webp",
+      "/images/bvr-manjunath-heights/v1 (2).webp"
+    ]
+  },
+  {
+    "id": "bvr-sri-niwas",
+    "slug": "bvr-sri-niwas",
+    "title": "BVR Sri Niwas",
+    "project-brochure": "/pdfs/bvr-srinivasa.pdf",
+    "image": "/images/bvr-sri-niwas/v1 (2).webp",
+    "location": {
+      "address": "Plot No 58, Green Wood Colony, Hayathnagar, Hyderabad",
+      "area": "Hayathnagar",
+      "city": "Hyderabad"
+    },
+    "status": "Completed",
+    "isUpcoming": false,
+    "developer": {
+      "name": "BVR Property Developers Pvt Ltd",
+      "office": "Prashanth Nagar Park Number 2, Vanasthalipuram Main Road, Hyderabad - 500070",
+      "phone": [
+        "94405 51214",
+        "99491 39827"
+      ],
+      "email": "bvrinfra13@gmail.com"
+    },
+    "overview": {
+      "title": "Premium North Facing Apartments in Hayathnagar",
+      "description": "BVR Sri Niwas offers spacious north-facing single-flat-per-floor residences with premium construction quality, modern amenities, and excellent connectivity in Hayathnagar."
+    },
+    "highlights": [
+      "North Facing Flat",
+      "Single Flat Per Floor",
+      "Stilt + 4 Floors",
+      "2150 Sft Spacious Area",
+      "Car Parking with Amenities",
+      "Premium Construction Quality"
+    ],
+    "projectDetails": {
+      "totalFloors": "Stilt + 4 Floors",
+      "flatsPerFloor": 1,
+      "facing": "North",
+      "configuration": "3BHK",
+      "saleArea": "2150 Sft",
+      "plotSize": "300 Sq Yards",
+      "uds": "75",
+      "parking": "Available with amenities (Approx 3 Lakhs)"
+    },
+    "pricing": {
+      "pricePerSqFt": "5600",
+      "parkingCost": "3 Lakhs",
+      "udsPerPerson": "75",
+      "note": "GST Registration Extra"
+    },
+    "specifications": {
+      "building": {
+        "slab": "5.5 inch thickness",
+        "steel": "Nagarjuna / Jairaj / Kamadhenu",
+        "cement": "UltraTech & Bharathi (Ultra fast construction)",
+        "brick": "Red brick for all walls",
+        "wallThickness": "9 inch external, 4 inch internal",
+        "elevation": "Advanced elevation for road side"
+      },
+      "doorsWindows": {
+        "mainDoor": "Teak wood, 3'6\" frame, 7'3\" height, polished finish",
+        "bedroomDoor": "Teak wood, 7'3\" height",
+        "bathroomDoor": "Granite frame, waterproof flush doors",
+        "windows": "UPVC windows, 2 track, ISI quality",
+        "utility": "UPVC sliding doors"
+      },
+      "kitchen": {
+        "sink": "Stainless steel sink",
+        "water": "Municipal + Bore water with separate taps",
+        "roProvision": true,
+        "tiles": "Wall tiles provided"
+      },
+      "electrical": {
+        "boxes": "GM company",
+        "switches": "Havells",
+        "wiring": "Finolex equivalent copper wiring",
+        "points": "TV & Internet points provided"
+      },
+      "paint": {
+        "interior": "Asian premium paint (white finish)",
+        "exterior": "Apex Ultima with waterproofing, texture & damp proof"
+      },
+      "tiles": {
+        "bathroom": "Half wall tiles up to 7 feet",
+        "flooring": "Extra cost (Rs.40/sqft to Rs.80/sqft based on quality)",
+        "parking": "Granite flooring",
+        "staircase": "Granite steps with steel railing"
+      },
+      "plumbing": {
+        "pipes": "Supreme / Finolex / Ashirvad / Sudhakar CPVC pipes",
+        "commode": "Wall mounted",
+        "brand": "Jaquar / Hindware / Rak / Parryware",
+        "washbasin": "Provided in all bathrooms"
+      },
+      "elevator": {
+        "capacity": "5 passengers",
+        "type": "Automatic door with V3F drive",
+        "powerBackup": true
+      }
+    },
+    "gallery": [
+      "/images/bvr-sri-niwas/v1 (1).webp",
+      "/images/bvr-sri-niwas/v1 (2).webp",
+      "/images/bvr-sri-niwas/v1 (3).webp",
+      "/images/bvr-sri-niwas/v1 (4).webp"
+    ]
+  }
+]

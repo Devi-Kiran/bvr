@@ -123,7 +123,7 @@ export default function Home() {
                   </li>
                 </ul>
 
-                <Link href="/projects/bvr-sai-nilyam" className="bg-primary hover:bg-accent text-white font-medium py-4 px-8 rounded-md transition-colors text-center w-full shadow-md group-hover:shadow-lg">
+                <Link href="/projects/bvr-sai-nilayam" className="bg-primary hover:bg-accent text-white font-medium py-4 px-8 rounded-md transition-colors text-center w-full shadow-md group-hover:shadow-lg">
                   View Project Details
                 </Link>
               </div>
