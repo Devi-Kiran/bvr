@@ -1,6 +1,7 @@
 import FadeIn from '@/components/ui/FadeIn';
 import { Mail, Phone, MapPin, Send, Home } from 'lucide-react';
 import Link from 'next/link';
+import ContactForm from '@/components/ContactForm';
 
 export default function Contact() {
     return (
@@ -84,66 +85,7 @@ export default function Contact() {
 
                             <h2 className="text-3xl font-bold text-primary mb-8 font-heading">Send a Message</h2>
 
-                            <form className="space-y-6">
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    {/* Name */}
-                                    <div className="space-y-2">
-                                        <label htmlFor="name" className="text-base font-semibold text-text-primary">Name</label>
-                                        <input
-                                            type="text"
-                                            id="name"
-                                            placeholder="Your Full Name"
-                                            className="w-full bg-section border border-gray-200 text-text-primary rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
-                                            required
-                                        />
-                                    </div>
-
-                                    {/* Phone */}
-                                    <div className="space-y-2">
-                                        <label htmlFor="phone" className="text-base font-semibold text-text-primary">Phone Number</label>
-                                        <input
-                                            type="tel"
-                                            id="phone"
-                                            placeholder="Your Mobile Number"
-                                            className="w-full bg-section border border-gray-200 text-text-primary rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-
-                                {/* Email */}
-                                <div className="space-y-2">
-                                    <label htmlFor="email" className="text-base font-semibold text-text-primary">Email Address</label>
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        placeholder="you@example.com"
-                                        className="w-full bg-section border border-gray-200 text-text-primary rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
-                                        required
-                                    />
-                                </div>
-
-                                {/* Message */}
-                                <div className="space-y-2">
-                                    <label htmlFor="message" className="text-base font-semibold text-text-primary">Your Message</label>
-                                    <textarea
-                                        id="message"
-                                        rows={5}
-                                        placeholder="How can we help you?"
-                                        className="w-full bg-section border border-gray-200 text-text-primary rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
-                                        required
-                                    ></textarea>
-                                </div>
-
-                                {/* Submit Button */}
-                                <button
-                                    type="submit"
-                                    className="w-full bg-primary hover:bg-accent text-white font-bold py-4 px-8 rounded-md transition-all shadow-md group flex items-center justify-center text-lg"
-                                >
-                                    Send Message
-                                    <Send className="ml-2 w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                                </button>
-                            </form>
+                            <ContactForm />
                         </FadeIn>
                     </div>
                 </div>

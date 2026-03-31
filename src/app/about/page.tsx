@@ -212,8 +212,8 @@ export default function About() {
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors">Name</h3>
-                                <p className="text-text-secondary text-sm font-medium mt-1">Role</p>
+                                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors">B.venkateswaralu</h3>
+                                <p className="text-text-secondary text-sm font-medium mt-1">Director</p>
                             </div>
                         </FadeIn>
 
@@ -228,8 +228,8 @@ export default function About() {
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors">Name</h3>
-                                <p className="text-text-secondary text-sm font-medium mt-1">Role</p>
+                                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors">K.Chandu</h3>
+                                <p className="text-text-secondary text-sm font-medium mt-1">Accountant</p>
                             </div>
                         </FadeIn>
 
@@ -244,26 +244,11 @@ export default function About() {
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors">Name</h3>
-                                <p className="text-text-secondary text-sm font-medium mt-1">Role</p>
+                                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors">Neha</h3>
+                                <p className="text-text-secondary text-sm font-medium mt-1">Tele caller</p>
                             </div>
                         </FadeIn>
 
-                        {/* Member 4 */}
-                        <FadeIn delay={0.4} direction="up" className="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 group transition-all duration-300 hover:shadow-2xl">
-                            <div className="relative aspect-[4/5] overflow-hidden">
-                                <Image
-                                    src="/images/team5.png"
-                                    alt=""
-                                    fill
-                                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                                />
-                            </div>
-                            <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors">Name</h3>
-                                <p className="text-text-secondary text-sm font-medium mt-1">Role</p>
-                            </div>
-                        </FadeIn>
                     </div>
                 </div>
             </section>

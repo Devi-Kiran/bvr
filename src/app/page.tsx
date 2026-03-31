@@ -323,7 +323,7 @@ export default function Home() {
             </FadeIn>
 
             {/* Upcoming Projects */}
-            <FadeIn delay={0.3}>
+            <FadeIn delay={0.3}> 
               <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group h-full flex flex-col">
                 <div className="relative h-64 bg-gray-200 overflow-hidden flex items-center justify-center">
                   <Image src="/images/hero.png" alt="Upcoming Projects" fill className="object-cover group-hover:scale-110 transition-transform duration-700 opacity-60" />

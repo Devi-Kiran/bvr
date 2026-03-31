@@ -1,6 +1,7 @@
 import FadeIn from '@/components/ui/FadeIn';
 import Image from 'next/image';
 import { CheckCircle2, MapPin, Wind, Layers, Waves, Phone, Send } from 'lucide-react';
+import ProjectEnquiryForm from '@/components/ProjectEnquiryForm';
 
 export default function ProjectDetails() {
     const specs = [
@@ -202,30 +203,7 @@ export default function ProjectDetails() {
                             <p className="text-text-secondary text-lg">Leave your details and our team will get back to you shortly.</p>
                         </div>
 
-                        <form className="space-y-6">
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div>
-                                    <label htmlFor="name" className="text-base font-semibold text-text-primary block mb-2">Name</label>
-                                    <input type="text" id="name" placeholder="Your Full Name" className="w-full bg-white border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent" required />
-                                </div>
-                                <div>
-                                    <label htmlFor="phone" className="text-base font-semibold text-text-primary block mb-2">Phone</label>
-                                    <input type="tel" id="phone" placeholder="Your Mobile Number" className="w-full bg-white border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent" required />
-                                </div>
-                            </div>
-                            <div>
-                                <label htmlFor="email" className="text-base font-semibold text-text-primary block mb-2">Email</label>
-                                <input type="email" id="email" placeholder="you@example.com" className="w-full bg-white border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent" required />
-                            </div>
-                            <div>
-                                <label htmlFor="message" className="text-base font-semibold text-text-primary block mb-2">Message</label>
-                                <textarea id="message" rows={4} placeholder="I want to schedule a site visit..." className="w-full bg-white border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent" required></textarea>
-                            </div>
-                            <button type="submit" className="w-full bg-primary hover:bg-accent text-white font-bold py-4 px-8 rounded-md transition-colors shadow-md group flex justify-center items-center text-lg mt-4">
-                                Schedule Site Visit
-                                <Send className="ml-2 w-5 h-5" />
-                            </button>
-                        </form>
+                        <ProjectEnquiryForm projectTitle="BVR Sai Nilyam" primaryPhone="9381067561" />
                     </div>
                 </FadeIn>
             </section>

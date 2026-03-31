@@ -8,6 +8,7 @@ import projectsData from '@/data/projects.json';
 import { notFound } from 'next/navigation';
 import ProjectGallery from '@/components/ProjectGallery';
 import ProjectInteractive from '@/components/ProjectInteractive';
+import ProjectEnquiryForm from '@/components/ProjectEnquiryForm';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 type Project = typeof projectsData[number];
@@ -477,59 +478,7 @@ export default async function ProjectDetails({ params }: { params: Promise<{ slu
                         </div>
 
                         <div className="bg-section border-t-4 border-accent rounded-2xl shadow-xl p-8 md:p-12">
-                            <form className="space-y-5">
-                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                                    <div>
-                                        <label className="text-sm font-semibold text-primary block mb-1.5">Full Name *</label>
-                                        <input
-                                            type="text"
-                                            placeholder="Your Full Name"
-                                            className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-sm"
-                                            required
-                                        />
-                                    </div>
-                                    <div>
-                                        <label className="text-sm font-semibold text-primary block mb-1.5">Phone Number *</label>
-                                        <input
-                                            type="tel"
-                                            placeholder="Your Mobile Number"
-                                            className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-sm"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <div>
-                                    <label className="text-sm font-semibold text-primary block mb-1.5">Email</label>
-                                    <input
-                                        type="email"
-                                        placeholder="you@example.com"
-                                        className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-sm"
-                                    />
-                                </div>
-                                <div>
-                                    <label className="text-sm font-semibold text-primary block mb-1.5">Message</label>
-                                    <textarea
-                                        rows={4}
-                                        placeholder={`I'm interested in ${project.title}. Please call me back.`}
-                                        className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-sm resize-none"
-                                    />
-                                </div>
-
-                                <div className="flex flex-col sm:flex-row gap-3 pt-2">
-                                    <button
-                                        type="submit"
-                                        className="flex-1 bg-primary hover:bg-accent text-white font-bold py-4 px-8 rounded-xl transition-all hover:shadow-lg hover:shadow-primary/20 flex items-center justify-center gap-2 text-base"
-                                    >
-                                        <Send className="w-5 h-5" /> Send Enquiry
-                                    </button>
-                                    <a
-                                        href={`tel:+91${primaryPhone}`}
-                                        className="flex-1 bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2 text-base"
-                                    >
-                                        <Phone className="w-5 h-5" /> Call Us Now
-                                    </a>
-                                </div>
-                            </form>
+                            <ProjectEnquiryForm projectTitle={project.title} primaryPhone={primaryPhone} />
                         </div>
                     </div>
                 </div>
