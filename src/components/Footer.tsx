@@ -135,7 +135,7 @@ const Footer = () => {
 
                 {/* Bottom text */}
                 <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-base text-text-secondary">
-                    <p>© {new Date().getFullYear()} BVR Property Developers Pvt Ltd. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} BVR Property Developers Pvt Ltd. All rights reserved. Developed By <a href="https://visionwavetech.com" target="_blank" rel="noopener noreferrer">visionwavetech</a></p>
                     <div className="mt-4 md:mt-0 space-x-4">
                         <span className="text-xs">GSTIN: 36ABCDE1234F1Z5</span>
                         {/* <Link href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</Link>
